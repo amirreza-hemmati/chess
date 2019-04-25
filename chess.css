@@ -1,0 +1,141 @@
+*{
+    direction: rtl;
+    text-align: center;
+    font-family: Tahoma;
+}
+
+body {
+    background-color: rgb(221, 221, 221);
+}
+
+.bg-lighted{
+    background-color: rgb(221, 221, 221);
+}
+
+body > div{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body > div > div {
+    width: 350px;
+    height: 350px;
+    background-color: rgb(61, 45, 39);
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    /* transform: skew(25deg) rotate(-30deg); */
+    transform: rotate(-45deg) skew(10deg);
+    position: fixed;
+    cursor: cell
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+table tr:nth-child(1) td:nth-child(even){
+    background-color: black;
+}
+
+table tr:nth-child(1) td:nth-child(odd){
+    background-color: rgb(230, 230, 230);
+}
+
+table tr:nth-child(2) td:nth-child(odd){
+    background-color: black;
+}
+
+table tr:nth-child(2) td:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+
+table tr:nth-child(3) td:nth-child(even){
+    background-color: black;
+}
+
+table tr:nth-child(3) td:nth-child(odd){
+    background-color: rgb(230, 230, 230);
+}
+
+table tr:nth-child(4) td:nth-child(odd){
+    background-color: black;
+}
+
+table tr:nth-child(4) td:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+
+table tr:nth-child(5) td:nth-child(even){
+    background-color: black;
+}
+
+table tr:nth-child(5) td:nth-child(odd){
+    background-color: rgb(230, 230, 230);
+}
+
+table tr:nth-child(6) td:nth-child(odd){
+    background-color: black;
+}
+
+table tr:nth-child(6) td:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+
+table tr:nth-child(7) td:nth-child(even){
+    background-color: black;
+}
+
+table tr:nth-child(7) td:nth-child(odd){
+    background-color: rgb(230, 230, 230);
+}
+
+table tr:nth-child(8) td:nth-child(odd){
+    background-color: black;
+}
+
+table tr:nth-child(8) td:nth-child(even){
+    background-color: rgb(230, 230, 230);
+}
+
+/* .shadow-1{
+    height: 250px;
+    width: 2px;
+    background-color: black;
+    transform: skew(35deg) rotate(-216deg);
+    position: relative;
+    right: 330px;
+    top: 135px;
+}
+
+.shadow-2{
+    height: 240px;
+    width: 0px;
+    background-color: black;
+    transform: skewX(-45deg) rotate(0deg);
+    position: relative;
+    right: -370px;
+    top: 100px;
+} */
+
+#d-child{
+    position: relative;
+    z-index: 2500;
+    display: none;
+    background-color: rgb(95, 89, 89);
+    opacity: 0.3;
+}
+
+i{
+    font-size: 35px;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-top: 30px;
+}
